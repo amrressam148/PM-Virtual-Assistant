@@ -29,17 +29,6 @@ This project demonstrates how a **Local RAG Architecture** can ingest these docu
 * **Vector Database:** ChromaDB 💾
 * **Document Processing:** LangChain Community Loaders & Unstructured
 
-## 🚀 Architecture
-
-```mermaid
-graph LR
-    A[Documents (.md)] -->|Load & Chunk| B(Text Splitter)
-    B -->|Embed (all-minilm)| C{Vector Store (ChromaDB)}
-    D[User Query] -->|Embed| C
-    C -->|Retrieve Top-k Context| E[LLM (Mistral)]
-    E -->|Generate Answer + Source| F[UI (Streamlit)]
-```
-
 ## ⚙️ Installation & Setup
 
 ### Prerequisites

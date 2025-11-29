@@ -1,4 +1,4 @@
-# 🤖 Signavio Sage: Enterprise AI Assistant (Local RAG)
+# 🤖 Product Sage: Enterprise AI Assistant (Local RAG)
 
 > **A privacy-first, retrieval-augmented generation (RAG) agent designed to unify scattered product knowledge into a Single Source of Truth.**
 
